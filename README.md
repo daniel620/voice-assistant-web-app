@@ -1,5 +1,9 @@
 # Voice Assistant Web App
 A web application that provides voice assistant capabilities, including speech-to-text, text-to-speech, and interaction with a language model.
+
+This web application is **ready-to-run** once you specify `ENV OPENAI_API_KEY=<your_openai_api_key>` in the Dockerfile. 
+
+
 ## Components Used
 
 - **Language Model**: [OpenAI GPT-3.5-turbo](https://www.openai.com/research/gpt-3)
@@ -20,7 +24,7 @@ A web application that provides voice assistant capabilities, including speech-t
     docker run -p 5000:5000 voice-assistant-web-app
     ```
 3. Open your web browser and go to `http://localhost:5000`.
-   
+
 ## Features
 
 ### 1. Select a Voice
