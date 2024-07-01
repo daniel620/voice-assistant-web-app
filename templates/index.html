@@ -19,58 +19,48 @@
   <body>
     <div class="container h-700">
       <div class="row">
-        <div class="col-12" style="margin-top: 2rem">
-          <h1 class="text-center">Voice Assistant Powered by GPT-3.5-turbo</h1>
-          <!-- <p class="text-center" style="font-size: 20px">
-            Your personal assistant powered by OpenAI's GPT model and Watson's
-            Text-to-Speech & Speech-to-Text
-          </p> -->
+        <!-- my  start-->
+        <div class="col-12" style="margin-top: 2rem; display: flex; justify-content: space-between; align-items: center;">
+            <div>
+                <h1>Voice Assistant</h1>
+                <p style="font-size: 20px">powered by GPT-3-turbo and TTS & STT from Watson</p>
+            </div>
+            <div>
+                <div class="custom-control custom-switch mb-3">
+                    <input type="checkbox" class="custom-control-input" id="light-dark-mode-switch">
+                    <label class="custom-control-label" for="light-dark-mode-switch">Toggle light/dark mode</label>
+                </div>
+                <div>
+                    <label for="voice-options">Choose a Voice</label>
+                    <select id="voice-options">
+                        <option value="">default</option>
+                        <option value="en-US_MichaelV3Voice">Michael (English)</option>
+                        <!-- Additional options -->
+                        <option value="en-US_HenryV3Voice">Henry (English)</option>
+                        <option value="en-GB_KateV3Voice">Kate (English)</option>
+                        <option value="en-GB_JamesV3Voice">James (English)</option>
+                        <option value="en-GB_CharlotteV3Voice">
+                          Charlotte (English)
+                        </option>
+                        <option value="en-US_LisaV3Voice">Lisa (English)</option>
+                        <option value="en-US_KevinV3Voice">Kevin (English)</option>
+                        <option value="en-US_EmilyV3Voice">Emily (English)</option>
+                        <option value="en-US_AllisonV3Voice">Allison (English)</option>
+                        <option value="en-US_OliviaV3Voice">Olivia (English)</option>
+                        <option value="fr-CA_LouiseV3Voice">Louise (French)</option>
+                        <option value="fr-FR_ReneeV3Voice">Renee (French)</option>
+                        <option value="fr-FR_NicolasV3Voice">Nicolas (French)</option>
+                        <option value="it-IT_FrancescaV3Voice">
+                          Francesca (Italian)
+                        </option>
+                    </select>
+                </div>
+            </div>
         </div>
-        <div class="col-12" style="font-size: 16px">
-          <!-- <p class="text-center mb-4">
-            Try asking: What can you specifically do? Type in your question or
-            record it by clicking the microphone!
-          </p> -->
-        </div>
-        <div class="col-12 text-center d-flex justify-content-around">
-          <div class="custom-control custom-switch mb-3 d-inline-block">
-            <input
-              type="checkbox"
-              class="custom-control-input"
-              id="light-dark-mode-switch"
-            />
-            <label class="custom-control-label" for="light-dark-mode-switch"
-              >Toggle light/dark mode</label
-            >
-          </div>
-          <div class="d-inline-block">
-            <label class="voice-options-label" for="voice-options"
-              >Choose a Voice</label
-            >
-            <select id="voice-options">
-              <option value="">default</option>
-              <option value="en-US_MichaelV3Voice">Michael (English)</option>
-              <option value="en-US_HenryV3Voice">Henry (English)</option>
-              <option value="en-GB_KateV3Voice">Kate (English)</option>
-              <option value="en-GB_JamesV3Voice">James (English)</option>
-              <option value="en-GB_CharlotteV3Voice">
-                Charlotte (English)
-              </option>
-              <option value="en-US_LisaV3Voice">Lisa (English)</option>
-              <option value="en-US_KevinV3Voice">Kevin (English)</option>
-              <option value="en-US_EmilyV3Voice">Emily (English)</option>
-              <option value="en-US_AllisonV3Voice">Allison (English)</option>
-              <option value="en-US_OliviaV3Voice">Olivia (English)</option>
-              <option value="fr-CA_LouiseV3Voice">Louise (French)</option>
-              <option value="fr-FR_ReneeV3Voice">Renee (French)</option>
-              <option value="fr-FR_NicolasV3Voice">Nicolas (French)</option>
-              <option value="it-IT_FrancescaV3Voice">
-                Francesca (Italian)
-              </option>
-            </select>
-          </div>
-        </div>
-        <div class="col-12 col-md-8 mx-auto mb-4">
+        
+        <!-- my end -->
+        <!-- <div class="col-12 col-md-8 mx-auto mb-4"> -->
+        <div class="col-12 mx-auto mb-4">
           <div id="chat-window" class="p-3 h-700">
             <div id="message-list"></div>
             <div class="loading-animation my-loading">

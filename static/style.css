@@ -13,7 +13,9 @@ body {
 #chat-window {
   position: relative;
   height: 500px;
+  /* width: 100%; */
   overflow: auto;
+  
 }
 
 .message-line {
@@ -99,7 +101,9 @@ body {
   display: flex;
   flex-wrap: nowrap;
   align-items: stretch;
-  width: 100%;
+  width: 60%;
+  margin-left: auto;  /* 添加这一行 */
+  margin-right: auto; /* 添加这一行 */
   border-radius: 40px;
   border: 1px solid #2d2d2d;
     background-color: #fff;
