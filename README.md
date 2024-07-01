@@ -1,5 +1,5 @@
 # Voice Assistant Web App
-A web application that provides voice assistant capabilities, including speech-to-text, text-to-speech, and interaction with a language model.
+A web application that provides voice assistant capabilities, including speech-to-text (STT), text-to-speech (TTS), and interaction with a large language model (LLM).
 
 This web application is **ready-to-run** once you specify `ENV OPENAI_API_KEY=<your_openai_api_key>` in the Dockerfile. 
 
