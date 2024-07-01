@@ -1,4 +1,27 @@
 # Voice Assistant Web App
+A web application that provides voice assistant capabilities, including speech-to-text, text-to-speech, and interaction with a language model.
+## Components Used
+
+- **Language Model**: [OpenAI GPT-3.5-turbo](https://www.openai.com/research/gpt-3)
+- **Speech to Text**: [IBM Watson Speech to Text](https://www.ibm.com/cloud/watson-speech-to-text)
+- **Text to Speech**: [IBM Watson Text to Speech](https://www.ibm.com/cloud/watson-text-to-speech)
+- **Backend Framework**: [Flask](https://flask.palletsprojects.com/)
+- **Frontend**: HTML, CSS, JavaScript
+
+
+## Using Docker
+
+1. Build the Docker image:
+    ```bash
+    docker build -t voice-assistant-web-app 
+    ```
+2. Run the Docker container:
+    ```bash
+    docker run -p 5000:5000 voice-assistant-web-app
+    ```
+3. Open your web browser and go to `http://localhost:5000`.
+   
+## Features
 
 ### 1. Select a Voice
 ![Select Voice](https://github.com/daniel620/voice-assistant-web-app/assets/60392737/72d64bde-e57f-4f0b-8172-e47b781d80e7)
