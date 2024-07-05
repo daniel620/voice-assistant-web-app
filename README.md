@@ -3,6 +3,7 @@ A web application that provides voice assistant capabilities, including speech-t
 
 This web application is **ready-to-run** once you specify `ENV OPENAI_API_KEY=<your_openai_api_key>` in the Dockerfile. 
 
+**\*\*Incoming new feature\*\*** Question Answering based on user uploaded PDF file. The functionality will be implemented using langchain and Retrieval Augmented Generation (RAG). 
 
 ## Components Used
 
